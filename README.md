@@ -14,6 +14,13 @@ taos> show databases;
  information_schema             |
  performance_schema             |
 Query OK, 2 rows in database (0.033802s)
+
+# 修改taos密码
+alter user root pass 'tttttt';
+
+# 注意, 修改过密码后, taos登陆脚本如下
+taos -uroot -p<PWD>
+taos -uroot -p666666
 ```
 
 ### 如何使用客户端(如Datagrip)查看tdengine
@@ -37,14 +44,5 @@ Query OK, 2 rows in database (0.033802s)
     2. 坑点记录 
        mac电脑上无法运行linux的应用程序， 所以无法安装成功tdengine-client端， 所以mac上暂时使用restful方式
 
-#### 修改taos密码
-* 进入容器执行taos
-  * alter user root pass 'tttttt';
-  * 注意, 修改过密码后, taos登陆脚本如下
-  ```shell
-   taos -uroot -p<PWD>
-   ex:
-   taos -uroot -p666666
-  ```
 
 
