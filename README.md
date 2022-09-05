@@ -34,9 +34,9 @@ taos -uroot -p666666
 #### 使用IDEA database连接TDengine
   * 在IDE的驱动中添加`taos-connector-jdbc`-> `target`文件夹下的`taos-jdbcdriver-3.0.1-dist.jar`
     * 选择restful方式进行连接
-      ![](./resources/tdengine-datagrip-01.png)
-      ![](./resources/tdengine-datagrip-02.png)
-      ![](./resources/tdengine-datagrip-03.png)
+      ![](https://github.com/tinaforgood/tdengine/raw/2f02ab61c1ad8329650fcab2183cde5e3c9cc7e8/resources/tdengine-datagrip-01.png)
+      ![](https://github.com/tinaforgood/tdengine/raw/2f02ab61c1ad8329650fcab2183cde5e3c9cc7e8/resources/tdengine-datagrip-02.png)
+      ![](https://github.com/tinaforgood/tdengine/raw/2f02ab61c1ad8329650fcab2183cde5e3c9cc7e8/resources/tdengine-datagrip-03.png)
 
 
     ⚠️ 注意说明
